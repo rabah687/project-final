@@ -1,3 +1,23 @@
  
     body{
         background-color: rgb(237, 184, 113);}
+        nav{ 
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgb(208, 113, 17);
+        
+        }
+        .div1 UL{
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            padding:0
+        }
+        .div1 ul li a{
+
+            color:black ;
+            text-decoration:none;
+            padding-inline: 10px;
+        }
